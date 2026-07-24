@@ -471,6 +471,10 @@ footer {
     direction: rtl;
 }
 
+[dir="rtl"] .contact-card p[dir="ltr"] {
+    text-align: center;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .menu-toggle {
